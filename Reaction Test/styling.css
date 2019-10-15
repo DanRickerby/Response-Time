@@ -1,0 +1,43 @@
+body
+{
+	border: 0px;
+	background-color: hsl(0, 0%, 10%);
+	cursor: default;
+	margin: 0;
+}
+
+.content {
+	display: grid;
+	grid-template-columns: 2;
+ 	grid-gap: 10px;
+	grid-auto-rows: auto;
+	font-family: 'Exo', sans-serif;
+}
+
+#title {
+	grid-column: 1 / 3;
+	grid-row: 1;
+	font-size: 2em;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	background-color: hsl(0, 0%, 15%);
+}
+
+#auditory-item {
+	grid-column: 1;
+	grid-row: 2;
+	background-color: green;
+}
+
+#visual-item {
+	grid-column: 2;
+	grid-row: 2;
+	background-color: red;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    
+}
